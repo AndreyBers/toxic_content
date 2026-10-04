@@ -89,7 +89,7 @@ https://www.kaggle.com/datasets/alexandersemiletov/toxic-russian-comments
 - character TF-IDF;
 - LinearSVC.
 
-Итоговая точность на тестовой выборке составила **78,14%**.
+Итоговая точность LinearSVC составила **78,14%**. Дополнительно реализованный ансамбль моделей показал **78,41%**.
 
 Ноутбук с экспериментами:
 
