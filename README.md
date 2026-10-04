@@ -78,3 +78,23 @@ https://www.kaggle.com/datasets/alexandersemiletov/toxic-russian-comments
 `docs/combined_datasets_description.md`
 
 В документе рассмотрены структура и объём данных, качество разметки, применимость к задаче, подготовка аудиоданных и основные ограничения проекта.
+
+## Классификация текста
+
+Для датасета HateXplain реализована классификация текстовых сообщений без использования трансформеров.
+
+Использован метод:
+
+- word TF-IDF;
+- character TF-IDF;
+- LinearSVC.
+
+Итоговая точность на тестовой выборке составила **78,14%**.
+
+Ноутбук с экспериментами:
+
+`notebooks/hatexplain_text_classification.ipynb`
+
+Отчёт:
+
+`docs/classification_report.md`
